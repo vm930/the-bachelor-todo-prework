@@ -49,7 +49,7 @@ def get_average_age_for_season(data, season)
     average_age << season_hash["age"].to_i
   end
     average_age.inject do |sum, element| sum + element
-  end.to_f / average_age.size.to_f
+  end.to_i / average_age.size.to_i
 end 
 
 
