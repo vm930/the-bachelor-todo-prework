@@ -10,9 +10,10 @@ end
 
 def get_contestant_name(data,occupation)
   data.each do |season, season_hash| 
-    season_hash.each do |type|
+    season_hash.each do |season_hash|
     if season_hash["occupation"].downcase == occupation.downcase
      return season_hash["name"]
+      end 
     end
   end 
 end
