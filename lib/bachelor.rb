@@ -18,7 +18,8 @@ def get_contestant_name(data,occupation)
   end 
 end
 
-def 
+def count_contestants_by_hometown(data, hometown)
+  
 end 
 
 
